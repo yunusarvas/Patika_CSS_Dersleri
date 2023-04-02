@@ -1,0 +1,49 @@
+*{
+    box-sizing:border-box ;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+table {
+  /*  border: 1px solid black;*/
+    width: 90%;
+    margin: auto;
+}
+
+tr td#search {
+    background-color: #EEEEEE;
+    text-align: center;
+    
+}
+
+tr td#alt-detay1 {
+    background-color: #7EE5DA;
+    text-align: center;
+    font-size:larger;
+    width: 37%;
+}
+
+tr td#alt-detay2 {
+   
+    background-color: #70CCC2;
+    text-align: center;
+}
+
+tr td#alt-detay3 {
+    background-color: #62B3AA;
+    text-align: center;
+}
+
+table #img {
+  /*  border: 1px solid black;*/
+    text-align: center;
+}
+
+p[id*="copy"] {
+    text-align: center;
+    margin-top: 10px;
+}

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <title>Urunler</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+        background-image: url(/resimler/arkaplan.jpeg);
+                
+
+       }
+
+        #sayfa {
+            width: 75%;
+            min-height:600px;
+            border:goldenrod solid 1px;
+            margin:auto;
+            position: relative;
+            top: 45px;
+            background-image: url(/resimler/mortar-176798_960_720.jpg);
+            box-shadow: 1px 1px 10px 10px rgb(242, 243, 240);
+        }
+        
+        #banner {
+            font-family: "Audiowide", sans-serif;
+            text-align: center;
+            color: black;
+            width: 100%;
+            height: 140px;
+            background-image: url(/resimler/mortar-176798_960_720.jpg);
+           /* border: 1px black solid ;*/
+            
+            
+        }
+
+        #logo {
+          
+           height: 50px;
+           margin:auto;
+        }
+
+        #logoresim {
+            width: 250px;
+            height: 120px;
+            object-fit:cover;
+            opacity: 0.7;
+            border-radius: 80px;
+            margin: 10px;
+            box-shadow: 10px 10px 10px 1px;
+        }
+        #sosyal {
+            width: 200px;
+            height: 85px;
+           /* border:1px blue solid;*/
+            float: right;
+        }
+        .sosyalag img {
+            width: 50px;
+            height:50px; 
+            float: left;
+            margin: 5px;
+        }
+
+        #anamenu {
+            width:100%;
+            height: 50px;
+          /*  border:1px solid purple;*/
+         
+            
+        }
+        nav#anamenu ul {
+            list-style-type:none;
+            padding: 0px;
+            margin:0px;
+            overflow: hidden;
+            background-color:rgb(211, 211, 211);
+            font-family: "Audiowide", sans-serif;
+            font-size: larger;
+            border: 1px solid goldenrod;
+            box-shadow: 1px 1px 10px 10px rgb(242, 243, 240);
+        }
+
+        nav#anamenu li  {
+            float: left;
+            
+        }
+
+        nav#anamenu li a {
+            display: block;
+            padding:12px 16px;
+            color:black;
+            text-decoration:none;
+            text-shadow: 5px 5px 10px black;
+            
+        }
+
+        .drop-down-content {
+            display: none;
+            position: absolute;
+            background-color: goldenrod;
+            min-width: 130px;
+        }
+
+        .drop-down-content a{
+            padding: 12px 16px;
+            display: block;
+            font-size: 16px;
+        }
+
+        .drop-down-content a:hover {
+        background-color: #f2b134;
+}
+
+.dropdown:hover .drop-down-content {
+    display: block;
+    margin-top: 3px;
+}
+
+li:hover {
+    background-color: goldenrod;
+    border-bottom: 3px solid #f2b134;
+}
+
+
+.altmenu {
+    width: 100%;
+    height: 100px;
+}
+
+section#icerik {
+    width:100%;
+    min-height: 500px;
+    
+}
+
+.altmenu {
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    padding-top: 50px;   
+}
+
+.altmenu div {
+    margin:auto;
+    width: 400px;
+    height: 20px;
+    /*border: 1px solid black;*/
+    margin-top: 20px;
+    box-shadow: 5px 5px goldenrod, 10px 10px black, 15px 15px gray;
+}
+    h1 {
+        
+        text-align: center;
+        font-family: "Audiowide", sans-serif;
+        margin-top: 20px;
+        font-size: xx-large;
+        } 
+        
+        
+        p{
+            text-indent: 20px;
+            
+        }
+        
+        #hakkımızdaicerik {
+           /* border: 1px solid black;*/
+            width: 500px;
+            height: auto;
+            font-family: "Audiowide", sans-serif;
+            font-size:medium;
+            text-align:justify;
+            letter-spacing: 3px;
+            word-spacing: 5px;
+            box-shadow: 1px 1px 10px 10px rgb(242, 243, 240);
+            float: left;
+        
+        }
+
+        #alidaimg {
+            
+            width: 1000px;
+            height: 420px;
+            box-shadow: 1px 1px 10px 10px rgb(242, 243, 240);
+            float: right;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Main Start-->
+
+    <div id="sayfa"> 
+
+        <!--Header Start-->
+        <header id="banner">
+            
+            <div id="logo">
+                <img id="logoresim" src="/resimler/alida.jpeg" alt="">
+            </div>
+                
+
+            <div id="sosyal">
+                
+                   <div id="instagram" class="sosyalag">
+                    <a href="#"><img src="/resimler/instagram.png" alt=""></a>
+                   </div>
+
+                   <div id="twitter" class="sosyalag">
+                    <a href="#"><img src="/resimler/twitter.png" alt=""></a>
+                   </div>
+
+                   <div id="whatsap" class="sosyalag">
+                    <a href="#"><img src="/resimler/whatsapp.png" alt=""></a>
+                   </div>
+                   <h5>Bize ulaşmak için tıklayınız.</h5>
+            </div>
+
+        </header>
+        <!--Header End-->
+
+        <!--Nav Start-->
+
+            <nav id="anamenu">
+
+                 <!--  <div id="linkler">
+                    <ul>
+                    
+                </ul>
+            </div> -->
+                <ul>
+                    <li>
+                        <a href="sablon.html">Ana Sayfa</a>
+                    
+                    </li>
+                        <li class="dropdown" >
+                            <a href="urunler.html"> Ürünler</a>
+                            <div class="drop-down-content">
+                                <a href="#outlet">Outlet</a>
+                                <a href="#Elbise">Elbise</a>
+                                <a href="#Kazak">Kazak</a>
+                                <a href="#Pantolon">Pantolon</a>
+                                <a href="#etek">Etek</a>
+                            </div>
+                        </li>
+                        <li><a href="hakkımızda.html">Hakkımızda</a></li>
+                        <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+                
+             </nav>
+
+        <!--Nav End-->
+
+        <!--Section Start-->
+             <section id="icerik" >
+                <article id="hakkimizda">
+                   <h1>HAKKIMIZDA</h1>
+                    <div id="hakkımızdaicerik">
+                        <p>Hakkımızda
+                            1998 yılında "En yeni iletişim ve bilgisayar teknolojilerini kullanarak müşterilerine dünya standartlarında çözümler sunmak" ilkesiyle yola çıkan isimtescil.net, geçen 16 yıllık süreçte Dünya ve Türkiye’ye, en büyük domain ve hosting firmalarından biri olmayı başarmıştır.
+                        </p>
+                         <br><br> 
+                        <p>
+                            2008 yılında alan adları standartlarını belirleyen ve denetleyen tek otorite ICANN'e akredite olan isimtescil.net, 2010 yılından beri Türkiye'nin en büyük 500 bilişim şirketi arasında yer almakta ve kurulduğu günden buyana 1 milyonun üzerinde domain kaydı ve 200 bininin üzerinde barındırma hizmetne ev sahipliği yapmıştır.
+                        </p>
+                    </div>
+                   
+                    <img id="alidaimg" src="/resimler/tek.jpg" alt="">
+                   
+                </article>
+             </section>
+        <!--Section End-->
+
+        <!--Footer Start-->
+        <footer class="altmenu">
+
+            <div> Marmara Tekstil & Alida  Tüm Hakları Saklıdır.</div>
+           
+        </footer>
+        <!--Footer End-->
+
+    </div>
+    <!--Main End-->
+
+
+</body>
+</html>
